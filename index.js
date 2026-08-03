@@ -5,7 +5,7 @@ const PORT = 3000;
 app.get('/', (req, res) => {
   res.json({
     nombre: "Daniel Aceituno",
-    cancion_favorita: "Beleza Pula"
+    album_favorito: "Brasilian Skies - Masayoshi Takanaka"
   });
 });
 
